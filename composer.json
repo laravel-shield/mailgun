@@ -1,0 +1,32 @@
+{
+    "name": "laravel-shield/mailgun",
+    "description": "A mailgun service for Laravel Shield.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ashley Clarke",
+            "email": "me@ashleyclarke.me"
+        },
+        {
+            "name": "Paul Redmond",
+            "email": "paulrredmond@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel-shield/shield": "^1.0"
+    },
+    "require-dev": {
+        "laravel-shield/testing": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shield\\Mailgun\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Shield\\Mailgun\\Test\\": "tests/"
+        }
+    }
+}
